@@ -17,6 +17,7 @@ body {
    background-color: #1f2937;
    color: #e5e7eb;
    align-items: center;
+   padding: 0px 20px;
 }
 
 .hero-content {
@@ -65,6 +66,12 @@ ul {
    border-radius: 10px;
    padding: 8px 28px;
    font-weight: bold;
+   cursor: pointer;
+}
+
+.signup:hover{
+   color: #3882f6;
+   background-color: #f9faf8;
 }
 
 .right-part {
@@ -91,11 +98,8 @@ ul {
 
 .info {
    margin-top: 50px;
-   margin-bottom: 100px;
    display: flex;
    flex-direction: column;
-   justify-content: center;
-   align-items: center;
 }
 
 .box {
@@ -120,8 +124,9 @@ ul {
 .info-boxes {
    display: flex;
    gap: 50px;
-   margin-top: 50px;
    flex-wrap: wrap;
+   margin: 50px 20px;
+   justify-content: center;
 }
 
 .quote-box {
@@ -131,12 +136,13 @@ ul {
 }
 
 .quote-content {
-   height: 300px;
+   min-height: 300px;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: flex-end;
    max-width: 750px;
+   margin: 10px 20px;
 }
 
 .quote {
@@ -165,10 +171,15 @@ ul {
    display: flex;
    max-width: 900px;
    border-radius: 10px;
-   height: 150px;
+   min-height: 150px;
    justify-content: space-around;
    align-items: center;
    flex: 1;
+   flex-wrap: wrap;
+   margin: 50px 20px;
+   padding: 20px;
+   box-sizing: border-box;
+   gap: 20px;
 }
 
 .cta-head {
@@ -183,12 +194,18 @@ ul {
 
 .cta-signup {
    color: #f9faf8;
-   font-size: 18px;
-   padding: 5px 30px;
+   padding: 8px 30px;
    background-color: #3882f6;
-   border: 3px solid #f9faf8;
-   font-weight: 500;
+   border: 2px solid #f9faf8;
+   font-weight: 600;
    border-radius: 10px;
+   cursor: pointer;
+}
+
+.cta-signup:hover{
+   background-color: #f9faf8;
+   color: #3882f6;
+   border: 2px solid #3882f6;
 }
 
 .footer {
@@ -200,5 +217,5 @@ ul {
    justify-content: center;
 }
 p{
-   margin: 8px;
+   margin: 8px 0px;
 }
